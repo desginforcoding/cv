@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact page</title>
+</head>
+
+<body>
+  <form action="mailto:guptashivamgs0611@gmail.com" enctype="text/plain" method="post" target="_blank" autocomplete="on">
+    <label for="fname">Enter ur name:</label>
+    <input type="text" name="fname" id="fname" required><br />
+    <label for="lname">Enter ur last name:</label>
+    <input type="text" name="lname" id="lname" required><br />
+    <label for="email">Enter ur Email:</label>
+    <input type="email" name="email" id="email"><br />
+    <label for="password">Enter ur password:</label>
+    <input type="password" name="pass" id="password"><br />
+    <label for="gender">Select ur gender:</label>
+    <input type="radio" id="gender" name="male" value="male">
+    <label for="gender">male</label>
+    <input type="radio" name="male" value="female" id="gender">
+    <label for="gender">female</label><br />
+    <label for="color">Enter ur favourite colour:</label>
+    <input type="color" name="color" value="c"><br />
+    <label for="DOB">Enter ur date of birth:</label>
+    <input type="datetime-local" name="DOB" value="DOB"><br />
+    <label for="photo">upload ur photo:</label>
+    <input type="file" name="photo" value="photo"><br />
+    <label for="tel">Enter ur phone number:</label>
+    <input type="tel" name="tel" value="tel" maxlength="10" required><br />
+    <label for="degree">Choose ur Degree:</label>
+    <select id="degree" name="degree">
+      <option value="1">BTECH</option>
+      <option value="2">BCOM</option>
+      <option value="3">BBA</option>
+      <option value="4">MTECH</option>
+    </select><br />
+    <label for="branch">UR branch:</label>
+    <input list="branch" name="brach">
+    <datalist id="branch">
+      <option value="CSE"></option>
+      <option value="ECE"></option>
+      <option value="MECH"></option>
+      <option value="BIOTECH"></option>
+    </datalist><br />
+    <label for="message">enter ur message :</label><br />
+    <textarea name="text" rows="8" cols="80"></textarea><br />
+    <br />
+   <input type="submit" name="Submit">
+  <input type="reset" name="">
+  </form>
+</body>
+
+</html>
